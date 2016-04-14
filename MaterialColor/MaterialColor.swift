@@ -300,13 +300,13 @@ class MaterialColor: UIColor {
     class func Black() -> MaterialColor { return MaterialColor(hexString: "000") }
     // WHITE
     class func White() -> MaterialColor { return MaterialColor(hexString: "FFF") }
-    
+
     // MARK: TextColor
     enum TextPriority {
         case Primary, Secondary, Disabled
     }
-    // DARK
-    class func TextColorOnDarkBackgroundWithTextPriority(priority: TextPriority) -> MaterialColor {
+    // LIGHT
+    class func TextColorOnLightBackgroundWithTextPriority(priority: TextPriority) -> MaterialColor {
         switch priority {
         case .Primary:
             return MaterialColor(hexString: "DE000000")
@@ -316,8 +316,8 @@ class MaterialColor: UIColor {
             return MaterialColor(hexString: "59000000")
         }
     }
-    // LIGHT
-    class func TextColorOnLightBackgroundWithTextPriority(priority: TextPriority) -> MaterialColor {
+    // DARK
+    class func TextColorOnDarkBackgroundWithTextPriority(priority: TextPriority) -> MaterialColor {
         switch priority {
         case .Primary:
             return MaterialColor(hexString: "FFFFFFFF")
@@ -327,7 +327,7 @@ class MaterialColor: UIColor {
             return MaterialColor(hexString: "80FFFFFF")
         }
     }
-    
+
     // MARK: ColorPalette
     struct ColorPalette {
         var primaryColor: MaterialColor = MaterialColor.Purple500()
