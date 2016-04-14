@@ -12,3 +12,4 @@ Happy coding 😉
 ### Current list of helpers
 
 1. QRImageGenerator by [Moritz](https://twitter.com/moritzlang97)
+2. MaterialColor by [Moritz](https://twitter.com/moritzlang97)
