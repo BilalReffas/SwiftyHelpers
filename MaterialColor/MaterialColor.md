@@ -3,6 +3,7 @@
 ## Description
 
 `MaterialColor` is a collection of all colors from [Google's Material Design](https://www.google.com/design/spec/style/color.html)
+Make sure to watch [this video](http://youtu.be/xYkz0Ueg0L4) about the philosophy of Material Design Colors.
 
 ## Usage
 
