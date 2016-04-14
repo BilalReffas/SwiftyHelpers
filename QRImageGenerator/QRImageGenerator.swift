@@ -11,7 +11,7 @@ extension String {
             filter.setValue("Q", forKey: "inputCorrectionLevel")
             // Check for the filters outputImage
             guard let qrImage = filter.outputImage else {
-                fatalError("Could not generate qr code from text \(self)")
+                return nil
             }
             // Scale the image by applying the size argument devided by the image's extent size
             let scaleX = size.width / qrImage.extent.size.width
