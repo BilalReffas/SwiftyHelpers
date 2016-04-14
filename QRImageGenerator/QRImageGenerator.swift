@@ -1,3 +1,5 @@
+import UIKit
+
 // MARK: QRImageGenerator
 
 extension String {
