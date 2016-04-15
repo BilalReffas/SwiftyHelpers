@@ -1,3 +1,5 @@
+<img src="logo.png" width="100px">
+
 # QRImageGenerator
 
 ### Description
