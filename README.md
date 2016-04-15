@@ -1,3 +1,5 @@
+<img src="https://slashkeys.github.io/files/logo.jpg" width="100px">
+
 # Swifty Helpers
 
 Hi Coder,
