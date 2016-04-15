@@ -28,4 +28,15 @@ if let qrImage = id.generateQRCodeImage(CGSize(width: 500.0, height: 500.0)) {
 }
 ```
 
+### Specify the colors
+
+If you want to specify both the foregroundColor and backgroundColor you can call this method and pass in both colors into the `colors` tuple. You don't have to specify the size, because the default size is set to `300 * 300`.
+
+``` swift
+let id = "131215315361"
+if let barCodeImage = id.generateQRCodeImage(CGSize(width: 1000.0, height: 1000.0), colors: (backgroundColor: UIColor.whiteColor(), foregroundColor: UIColor.orangeColor())) {
+    barCodeImage
+}
+```
+
 Special thanks to [Ben](https://twitter.com/BenchR) for helping me out with this snippet! 😉
