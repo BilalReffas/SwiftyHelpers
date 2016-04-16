@@ -1,4 +1,4 @@
-<img src="logo.png" style="height: 80px">
+<img src="logo.png" height="80">
 
 # Swifty Helpers
 
