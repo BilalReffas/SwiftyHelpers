@@ -1,4 +1,4 @@
-<img src="https://slashkeys.github.io/files/logo.jpg" width="100px">
+<img src="logo.svg" width="100%" style="max-width: 400px">
 
 # Swifty Helpers
 
