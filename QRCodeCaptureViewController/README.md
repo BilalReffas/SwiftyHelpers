@@ -36,3 +36,9 @@ extension ViewController: QRCodeCaptureDelegate {
     }
 }
 ```
+
+### In the future
+
+- Support Cocoapods
+- Support Carthage
+- Support Swift Package Manager
