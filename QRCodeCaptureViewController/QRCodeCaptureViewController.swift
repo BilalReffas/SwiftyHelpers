@@ -22,11 +22,7 @@ class QRCodeCaptureViewController: UIViewController {
     private var outputLabel: UILabel?
 
     override func prefersStatusBarHidden() -> Bool {
-        if hideStatusBar {
-            return true
-        } else {
-            return false
-        }
+        return hideStatusBar == true ? true : false
     }
 
     override func viewDidLoad() {
