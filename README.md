@@ -14,4 +14,5 @@ Happy coding 😉
 ### Current list of helpers
 
 1. [QRImageGenerator](https://github.com/slashkeys/SwiftyHelpers/tree/master/QRImageGenerator) - *String Extension for creating QRCode-Images based on a String*
-2. [MaterialColor](https://github.com/slashkeys/SwiftyHelpers/tree/master/MaterialColor) - *UIColor SubClass containing all colors from Google's Material Design*
+2. [MaterialColor](https://github.com/slashkeys/SwiftyHelpers/tree/master/MaterialColor) - *UIColor subclass containing all colors from Google's Material Design*
+3. [QRCodeCaptureViewController](https://github.com/slashkeys/SwiftyHelpers/tree/master/QRCodeCaptureViewController) - *UIViewController subclass for capturing and decode QRCodes*
